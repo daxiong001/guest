@@ -15,5 +15,5 @@ class GuestAdmin(admin.ModelAdmin):
     search_fields = ['realname','phone']
     list_filter = ['sign']
 
-admin.site.register(Event,EventAdmin)
-admin.site.register(Guest,GuestAdmin)
+admin.site.register(Event, EventAdmin)
+admin.site.register(Guest, GuestAdmin)
